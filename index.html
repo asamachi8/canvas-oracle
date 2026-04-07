@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas Oracle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="page">
+    <h1 class="title">Canvas Oracle</h1>
+    <p class="subtitle">キャンバス・オラクル：深淵の肖像</p>
+
+    <div class="fortune-frame" id="fortuneFrame">
+      <img
+        src="images/placeholder_final.png"
+        alt="封じられた絵画"
+        class="oracle-image placeholder-image"
+      >
+
+      <img
+        src="images/placeholder_final.png"
+        alt="オラクルカード"
+        class="oracle-image result-image"
+        id="fortuneImage"
+      >
+    </div>
+
+    <section class="fortune-text">
+      <h2 class="fortune-name" id="fortuneName"></h2>
+      <p class="fortune-caption" id="fortuneCaption"></p>
+      <p class="fortune-body" id="fortuneBody"></p>
+      <ul class="fortune-points" id="fortunePoints"></ul>
+
+      <p class="note" id="fortuneNote">
+        ※「もう一度占う」は何度でも使用できます。<br>
+        同じ結果が続く場合、それもまた意味のある導きです。
+      </p>
+    </section>
+
+    <button class="retry-button" id="retryButton">もう一度占う</button>
+
+<section class="oracle-links">
+  <p class="oracle-note">
+    この肖像画は、美術館に収められた展示作品のひとつです。<br>
+    動く肖像画や他の展示はTikTokで公開しています。
+  </p>
+
+  <div class="oracle-buttons">
+    <a class="oracle-btn"
+       href="https://www.tiktok.com/@asamachi_3"
+       target="_blank"
+       rel="noopener noreferrer">
+      TikTokで展示を見る
+    </a>
+
+    <a class="oracle-btn sub"
+       href="https://forms.gle/ZyUWo7bwK8pr9m439"
+       target="_blank"
+       rel="noopener noreferrer">
+      お問い合わせ
+    </a>
+  </div>
+</section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+<footer class="site-footer">
+  <a href="privacy.html">プライバシーポリシー</a>
+  <span>｜</span>
+  <a href="https://forms.gle/ZyUWo7bwK8pr9m439" target="_blank" rel="noopener noreferrer">お問い合わせ</a>
+</footer>
+</body>
+</html>
